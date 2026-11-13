@@ -1,0 +1,29 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+
+# Secrets and private issuer
+.env
+.env.*
+*.pem
+*.key
+private-license-tools/
+Mench-Private-Code-Generator.html
+Private-Mench-License-Issuer.zip
+
+# Test output / OS / editor
+node_modules/
+playwright-report/
+test-results/
+coverage/
+__pycache__/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
